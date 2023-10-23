@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 
 gem 'simple_form'
 
+gem 'htmlbeautifier'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -59,6 +61,7 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
   gem 'better_errors', '~> 2.10', '>= 2.10.1'
+  gem "binding_of_caller"
   gem "bulma-rails", "~> 0.9.4"
   gem 'guard', '~> 2.14', '>= 2.14.1'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
